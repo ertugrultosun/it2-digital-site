@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>it2digital — we build small worlds</title>
+<meta name="description" content="it2digital is a small, independent digital studio. We make games, apps, TV experiences and websites — small worlds people come back to.">
+<meta name="theme-color" content="#0c0a1d">
+<meta property="og:title" content="it2digital — we build small worlds">
+<meta property="og:description" content="Games, apps, TV and web. A small studio with a big building.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://it2.digital/">
+<meta property="og:image" content="https://it2.digital/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="it2digital home">
+    <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    <span class="brand-word">it2<em>digital</em></span>
+  </a>
+  <nav aria-label="Main">
+    <a href="#floors" data-i18n="nav.what">What we do</a>
+    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="#studio" data-i18n="nav.studio">Studio</a>
+    <a href="#contact" class="nav-cta" data-i18n="nav.contact">Say hello</a>
+  </nav>
+  <button class="lang" type="button" aria-label="Türkçe / English">
+    <span data-l="en">EN</span><span data-l="tr">TR</span>
+  </button>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO: the building ================= -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="sky" aria-hidden="true">
+      <div class="stars"></div>
+      <div class="moon"></div>
+    </div>
+
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.eyebrow">An independent digital studio</p>
+      <h1 id="hero-title">
+        <span data-i18n="hero.t1">We build</span>
+        <em data-i18n="hero.t2">small worlds</em>
+        <span data-i18n="hero.t3">people come back to.</span>
+      </h1>
+      <p class="lede" data-i18n="hero.lede">Games, apps, TV and web — each one a room with its own light on. Come in, look around, knock on a few doors.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#work" data-i18n="hero.cta1">See who lives here</a>
+        <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Rent a flat</a>
+      </div>
+    </div>
+
+    <div class="building-wrap">
+      <div class="roof" aria-hidden="true">
+        <span class="antenna"></span>
+        <span class="tank"></span>
+        <svg class="bulbs" viewBox="0 0 400 40" preserveAspectRatio="none"><path d="M4 6 Q200 44 396 6" /></svg>
+      </div>
+      <div class="facade" id="facade" role="img" aria-label="A building at night; its lit windows spell it2"></div>
+      <div class="street" aria-hidden="true"></div>
+      <p class="hint" data-i18n="hero.hint">Psst — tap the windows.</p>
+    </div>
+  </section>
+
+  <!-- ================= FLOORS: the elevator ================= -->
+  <section class="floors" id="floors" aria-labelledby="floors-title">
+    <div class="elevator" aria-hidden="true">
+      <div class="elevator-display">
+        <span class="arrow">▲</span>
+        <span class="floor-num" id="floorNum">01</span>
+      </div>
+      <ol class="elevator-buttons">
+        <li data-f="1">1</li><li data-f="2">2</li><li data-f="3">3</li><li data-f="4">4</li><li data-f="5">5</li>
+      </ol>
+    </div>
+
+    <div class="floors-list">
+      <header class="section-head">
+        <p class="eyebrow" data-i18n="floors.eyebrow">What we do</p>
+        <h2 id="floors-title" data-i18n-html="floors.title">Five floors.<br><em>One building.</em></h2>
+      </header>
+
+      <article class="floor" data-floor="1">
+        <span class="floor-tag">01</span>
+        <div>
+          <h3 data-i18n="f1.t">Mobile games</h3>
+          <p data-i18n="f1.p">Puzzles with personality. Tight rules, warm art, levels that are proven solvable before anyone plays them — and just enough mischief to keep you up past bedtime.</p>
+          <ul class="chips"><li>Flutter</li><li data-i18n="chip.levels">Level design</li><li data-i18n="chip.motion">Motion &amp; sound</li></ul>
+        </div>
+      </article>
+
+      <article class="floor" data-floor="2">
+        <span class="floor-tag">02</span>
+        <div>
+          <h3 data-i18n="f2.t">Apps</h3>
+          <p data-i18n="f2.p">Android and iOS apps that feel native, stay fast and are ready for the stores: purchases, ads, notifications, seven languages if you need them.</p>
+          <ul class="chips"><li>Android</li><li>iOS</li><li>Kotlin</li><li>Flutter</li></ul>
+        </div>
+      </article>
+
+      <article class="floor" data-floor="3">
+        <span class="floor-tag">03</span>
+        <div>
+          <h3 data-i18n="f3.t">TV &amp; streaming</h3>
+          <p data-i18n="f3.p">Ten-foot interfaces for Google TV and Android TV, and the servers behind them. Big screens, a remote in one hand, popcorn in the other.</p>
+          <ul class="chips"><li>Google TV</li><li>Android TV</li><li data-i18n="chip.servers">Media servers</li></ul>
+        </div>
+      </article>
+
+      <article class="floor" data-floor="4">
+        <span class="floor-tag">04</span>
+        <div>
+          <h3 data-i18n="f4.t">Web</h3>
+          <p data-i18n="f4.p">Sites and web apps that load in a blink and still have a heartbeat — like the one you are scrolling right now.</p>
+          <ul class="chips"><li data-i18n="chip.sites">Websites</li><li data-i18n="chip.webapps">Web apps</li><li data-i18n="chip.backend">Back ends</li></ul>
+        </div>
+      </article>
+
+      <article class="floor" data-floor="5">
+        <span class="floor-tag">05</span>
+        <div>
+          <h3 data-i18n="f5.t">Product, top to bottom</h3>
+          <p data-i18n="f5.p">From the first sketch to the store listing: design systems, prototypes, testing, launch. One small team holding the whole thing.</p>
+          <ul class="chips"><li data-i18n="chip.design">Design</li><li data-i18n="chip.proto">Prototyping</li><li data-i18n="chip.launch">Launch</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= WORK ================= -->
+  <section class="work" id="work" aria-labelledby="work-title">
+    <header class="section-head center">
+      <p class="eyebrow" data-i18n="work.eyebrow">Now living in the building</p>
+      <h2 id="work-title" data-i18n-html="work.title">Meet the <em>tenants.</em></h2>
+    </header>
+
+    <!-- Noisy Neighbors -->
+    <article class="product nn" aria-labelledby="nn-title">
+      <div class="door-label"><span>Flat 1A</span><span data-i18n="nn.status">Coming soon to Google Play</span></div>
+
+      <div class="nn-grid">
+        <div class="nn-copy">
+          <img class="app-icon" src="assets/nn-icon.webp" width="88" height="88" alt="">
+          <h3 id="nn-title">Noisy Neighbors</h3>
+          <p class="tagline" data-i18n="nn.tag">A cozy puzzle about apartment life.</p>
+          <p data-i18n="nn.p">Drag tenants between flats until every neighbour is happy. Dex drums, Rex barks, Marco's cooking fills the hallway — and the Parks just want their baby to sleep. Some tenants need the ground floor, some the top, some a corner. You're the landlord. Good luck.</p>
+          <dl class="facts">
+            <div><dt>200</dt><dd data-i18n="nn.f1">levels</dd></div>
+            <div><dt>27</dt><dd data-i18n="nn.f2">tenants</dd></div>
+            <div><dt>7</dt><dd data-i18n="nn.f3">languages</dd></div>
+          </dl>
+        </div>
+
+        <!-- The toy: one noisy flat -->
+        <div class="toy" aria-live="polite">
+          <p class="toy-title" data-i18n="toy.title">Try it: one tiny level</p>
+          <div class="toy-board" id="toy">
+            <figure class="flat flat-drummer">
+              <img src="assets/nn-drummer.webp" width="140" height="148" alt="Dex, drumming happily">
+              <figcaption>Dex</figcaption>
+            </figure>
+            <div class="waves" aria-hidden="true"><i></i><i></i><i></i></div>
+            <figure class="flat flat-granny">
+              <img class="angry" src="assets/nn-granny-angry.webp" width="140" height="148" alt="Grace, not amused by the drums">
+              <img class="happy" src="assets/nn-granny-happy.webp" width="140" height="148" alt="Grace, happy in a quiet flat">
+              <figcaption>Grace</figcaption>
+            </figure>
+            <div class="for-rent" aria-hidden="true"><span data-i18n="toy.rent">FOR RENT</span></div>
+          </div>
+          <div class="toy-bar">
+            <span class="toy-status" id="toyStatus" data-i18n="toy.bad">1 of 2 neighbours happy</span>
+            <button class="btn btn-gold btn-sm" id="toyBtn" type="button" data-i18n="toy.btn">Move Dex out</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="phones" role="list" aria-label="Noisy Neighbors screenshots">
+        <figure class="phone" role="listitem"><img loading="lazy" src="assets/nn-01-home.webp" width="540" height="1080" alt="The tower grows a floor for every level you win"></figure>
+        <figure class="phone" role="listitem"><img loading="lazy" src="assets/nn-02-level.webp" width="540" height="1080" alt="A level: twelve flats, six unhappy neighbours"></figure>
+        <figure class="phone" role="listitem"><img loading="lazy" src="assets/nn-03-intro81.webp" width="540" height="1080" alt="A new neighbour moves in"></figure>
+        <figure class="phone" role="listitem"><img loading="lazy" src="assets/nn-05-residents.webp" width="540" height="1080" alt="Residents: everyone you have met"></figure>
+        <figure class="phone" role="listitem"><img loading="lazy" src="assets/nn-06-shop.webp" width="540" height="1080" alt="The shop"></figure>
+      </div>
+    </article>
+
+    <!-- Kovuk -->
+    <article class="product kovuk" aria-labelledby="kovuk-title">
+      <div class="door-label"><span>Flat 2B</span><span data-i18n="kv.status">In development</span></div>
+      <div class="kovuk-grid">
+        <div class="kovuk-copy">
+          <img class="kovuk-word" src="assets/kovuk-wordmark.svg" width="220" height="64" alt="Kovuk" id="kovuk-title">
+          <p class="tagline" data-i18n="kv.tag">Your films, in a hollow of their own.</p>
+          <p data-i18n="kv.p">Kovuk — Turkish for the hollow in a tree trunk — turns the films and series on your own disks into a cinema-grade library. It runs on your computer or NAS and plays on Google TV, in the browser and on your phone. Your files stay yours.</p>
+          <ul class="platforms">
+            <li><b data-i18n="kv.server">Server</b><span>Windows · Docker</span></li>
+            <li><b>Google TV</b><span>Android TV</span></li>
+            <li><b>Web</b><span data-i18n="kv.browser">Any browser</span></li>
+            <li><b>Android</b><span data-i18n="kv.phone">Phone</span></li>
+          </ul>
+        </div>
+        <div class="cinema">
+          <div class="tv" id="tv">
+            <div class="tv-screen">
+              <img loading="lazy" src="assets/kovuk-tv-home.webp" width="1280" height="720" alt="Kovuk on Google TV: the home screen">
+              <img loading="lazy" src="assets/kovuk-tv-detail.webp" width="1280" height="720" alt="Kovuk on Google TV: a film's details" class="alt">
+            </div>
+            <div class="tv-stand"></div>
+          </div>
+          <div class="remote" aria-hidden="true">
+            <span class="remote-dot"></span>
+          </div>
+          <p class="cinema-hint" data-i18n="kv.hint">Click the TV to change the channel.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- An empty flat -->
+    <a class="product empty" href="#contact">
+      <div class="door-label"><span>Flat 3C</span><span data-i18n="empty.status">Available now</span></div>
+      <div class="empty-inner">
+        <div class="sign"><span data-i18n="empty.sign">FOR RENT</span></div>
+        <p class="empty-title" data-i18n-html="empty.title">This flat is waiting for<br><em>your idea.</em></p>
+        <span class="btn btn-ghost" data-i18n="empty.cta">Talk to the landlord →</span>
+      </div>
+    </a>
+  </section>
+
+  <!-- ================= STUDIO ================= -->
+  <section class="studio" id="studio" aria-labelledby="studio-title">
+    <header class="section-head">
+      <p class="eyebrow" data-i18n="studio.eyebrow">The house rules</p>
+      <h2 id="studio-title" data-i18n-html="studio.title">Small studio.<br><em>Stubborn about details.</em></h2>
+    </header>
+    <ol class="rules">
+      <li>
+        <span class="rule-no">i.</span>
+        <h3 data-i18n="r1.t">Worlds, not screens.</h3>
+        <p data-i18n="r1.p">Every product gets a place, a light, a few characters and a reason to come back. Screens are just the windows.</p>
+      </li>
+      <li>
+        <span class="rule-no">ii.</span>
+        <h3 data-i18n="r2.t">Tested like we mean it.</h3>
+        <p data-i18n="r2.p">Noisy Neighbors ships with more than 2,150 automated tests, and every one of its levels is proven solvable by two independent solvers.</p>
+      </li>
+      <li>
+        <span class="rule-no">iii.</span>
+        <h3 data-i18n="r3.t">The whole building.</h3>
+        <p data-i18n="r3.p">Design, code, sound, store pages, launch. We hold the product from the foundations to the roof, so nothing gets lost on the stairs.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ================= CONTACT: the rooftop ================= -->
+  <section class="rooftop" id="contact" aria-labelledby="contact-title">
+    <svg class="string" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 20 Q300 110 600 40 T1200 30" />
+    </svg>
+    <div class="lights" aria-hidden="true"></div>
+    <div class="rooftop-inner">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Up on the roof</p>
+      <h2 id="contact-title" data-i18n-html="contact.title">Got a world in mind?<br><em>Let's build it.</em></h2>
+      <a class="mail" href="mailto:mail@it2.digital">mail@it2.digital</a>
+      <p class="small" data-i18n="contact.small">Tell us about it. We read everything.</p>
+    </div>
+    <div class="skyline" aria-hidden="true"></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span>© <span id="year">2026</span> it2digital</span>
+  <span class="foot-links">
+    <a href="https://noisyneighbors.it2.digital/privacy.html">Noisy Neighbors · <span data-i18n="foot.privacy">Privacy</span></a>
+    <a href="https://noisyneighbors.it2.digital/terms.html"><span data-i18n="foot.terms">Terms</span></a>
+  </span>
+  <span class="foot-note" data-i18n="foot.note">Lights on since 2026.</span>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
